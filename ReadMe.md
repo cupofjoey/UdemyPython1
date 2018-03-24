@@ -1,0 +1,2 @@
+This is a simple repository that I’m making to store the projects I’m doing while learning to code in Python. Rather than create new repo’s everyday, I figured I’d just store them all in one folder, and push the more serious projects in separate repo’s. 
+I’ll probably work on some algorithms in here too. Enjoy!

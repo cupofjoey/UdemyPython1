@@ -1,3 +1,5 @@
 #Just think of this file as my Scratch Pad for code
-my_numbers = [13, 45, 66, 9]
-print("45" in my_numbers)
+def my_method(input_number, divisor):
+    if divisor == 0:
+        return None
+    return input_number / divisor

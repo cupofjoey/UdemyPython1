@@ -7,7 +7,7 @@ def menu():
     lottery_numbers = create_lottery_numbers
     #Print out the winnings
     matched_numbers = user_numbers.intersection(lottery_numbers)
-    print("You won ${}!".format(100 ** len(matched_numbers)))
+    print("You matched {}. You won ${}!".format(matched_numbers, 100 ** len(matched_numbers)))
 
 # User can pick 6 numbers
 def get_player_numbers():
@@ -26,4 +26,4 @@ def create_lottery_numbers():
 # Then we match the user numbers to the lottery numbers
 # Calculate the winnings based on how many numbers the user matched
 
-print(create_lottery_numbers())
+return menu()

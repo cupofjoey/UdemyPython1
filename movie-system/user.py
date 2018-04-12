@@ -18,3 +18,9 @@ class User:
     def watched_movies(self):
         movies_watched = list(filter(lambda movie: movie.watched, self.movies)) # x = movie
         return movies_watched
+
+# to open files and close them when you're done use the following method:
+# with open('my_file.txt', 'w') as f:
+#   f.write("Hello World")
+#       or
+#   print(f.readline())
